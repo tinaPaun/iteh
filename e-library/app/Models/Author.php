@@ -13,8 +13,8 @@ class Author extends Model
         
         'author_id',
         'name',
-        'surname',
-        'asdasd'
+        'surname'
+        
 
     ];
 
