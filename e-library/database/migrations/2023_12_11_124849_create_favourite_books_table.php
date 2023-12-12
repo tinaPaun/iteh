@@ -17,6 +17,8 @@ return new class extends Migration
             $table->foreignID('book_id');
             
         });
+
+        Schema::rename($FavBook, $Favourites);
     }
 
     /**
@@ -26,4 +28,11 @@ return new class extends Migration
     {
         Schema::dropIfExists('favourite_books');
     }
+
+    
+    
+
+
 };
+
+
