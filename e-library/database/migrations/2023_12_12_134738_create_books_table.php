@@ -19,6 +19,13 @@ return new class extends Migration
             $table->foreignId('genre_id');
             
         });
+
+        Schema::table('books', function (Blueprint $table) {
+           
+            $table->text('description');
+        
+        });
+
     }
 
     /**
